@@ -1,11 +1,28 @@
 p {
-    color: green;
     margin:0 auto;
 }
 
 a {color: blue;  }
 
-#homepgeImage {
+#topBackground {
+    background: #3c1d0a;
+    width: 1280px;
+    height: 40px;
+    margin:-10px auto;
+
+}
+#topBackground p {
+    color: white;
+    font-size:90%;
+    top: 9px;
+    /*left: 200px;*/
+    left:300px;
+    z-Index: 6;
+    width: 479px;
+    height: 21px;
+    position: absolute;
+}
+#homepageImage {
     width: 100%;
 }
 #nav {
@@ -13,13 +30,13 @@ a {color: blue;  }
     width: 800px;
     height:35px;
     background: #CCC;
-    margin: 0 auto; /*水平居中*/
+    margin: 0 auto;
     margin-top: 30px;
 }
 
 #nav ul{
     width:960px;
-    hegiht:35px;
+    height:35px;
 }
 
 #nav ul li{
