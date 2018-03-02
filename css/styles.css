@@ -1,46 +1,75 @@
-p {
-    margin:0 auto;
+body {
+    background: white;
+    padding:0px;
+    margin: 0px;
 }
-
-a {color: blue;  }
 
 #topBackground {
-    background: #3c1d0a;
-    width: 1280px;
-    height: 40px;
-    margin:-10px auto;
-
+    background: rgba(42,45,36,0.9);
+    width: 100%;
+    clear: both;
+    height: 90px;
+    margin:0px auto;
 }
 #topBackground p {
+    float: left;
+    font-family: YouYuan;
     color: white;
-    font-size:90%;
-    top: 9px;
-    /*left: 200px;*/
-    left:300px;
+    font-size: 30px;
+    top: 20px;
+    margin: 0 auto;
+    left:100px;
     z-Index: 6;
-    width: 479px;
-    height: 21px;
+    width: 200px ;
+    height: 50px;
     position: absolute;
 }
+
 #homepageImage {
     width: 100%;
 }
 #nav {
-    list-style:none;
-    width: 800px;
-    height:35px;
-    background: #CCC;
-    margin: 0 auto;
-    margin-top: 30px;
+    height: 40px;
+    /*border-top: #060 2px solid;
+    border-bottom: #060 2px solid;*/
+    background-color: white;
+    display: inline-block;
 }
 
-#nav ul{
-    width:960px;
-    height:35px;
-}
-
-#nav ul li{
-    float: left;
-    width:200px;
+#nav ul {
     list-style: none;
+    margin-right: 50px;
 }
+
+#nav li {
+    display: inline;
+    line-height: 40px;
+}
+
+#nav a {
+    color: blue;
+    text-decoration: none;
+    padding: 20px 20px;
+}
+
+#nav a:hover {
+    color: yellow;
+}
+/*#nav {
+
+    list-style:none;
+    width: 120px;
+    height:35px;
+    margin: 0 auto;
+    clear: both;
+
+}
+#nav ul a{
+    color: blue;
+}
+#nav li {
+    display: inline;
+    float: right;
+}*/
+
+
