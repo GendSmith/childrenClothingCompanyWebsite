@@ -1,7 +1,7 @@
 body {
     background: white;
-    padding:0px;
-    margin: 0px;
+    padding:0;
+    margin: 0;
 }
 #homepageImage img{
     width: 100%;
@@ -11,11 +11,11 @@ body {
     width: 100%;
     clear: both;
     height: 90px;
-    margin:0px auto;
+    margin:0 auto;
 }
 #topBackground p {
     float: left;
-    font-family: YouYuan;
+    font-family: 微软雅黑;
     color: white;
     font-size: 30px;
     top: 20px;
